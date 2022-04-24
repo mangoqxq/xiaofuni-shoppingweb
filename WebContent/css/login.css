@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.login {
+margin:0 auto;
+width:390px;
+padding:14px;
+border:2px #b7ddf2 dashed;
+background:#ebf4fb;
+}
+.login * {
+margin:2px;
+padding:0;
+font-family:"微软雅黑";
+font-size:12px;
+line-height:1.5em;
+text-align:center;
+}
+.login h2 {
+text-align:center;
+font-size:18px;
+font-weight:bold;
+margin-bottom:10px;
+padding-bottom:5px;
+border-bottom:solid 1px #b7ddf2;
+}
+.login .frm input{
+width:50%;
+height:18px;
+padding:2px 0px 2px 20px;
+margin-bottom:8px;
+border:1px #aacfe4 solid;
+text-align:left;
+}
+.login .frm .txtuser {
+background:#FFF url(../images/man.jpg) no-repeat left center;
+}
+.login .frm .txtpwd {
+background:#FFF url(../images/password.jpg) no-repeat left center;
+}
+.lohin .txtVcode{
+	width:20%;
+	height:18px;
+	padding:2px 0px 2px 20px;
+	margin-bottom:8px;
+	border:1px #aacfe4 solid;
+	text-align:left;
+}
+.login .btns input{
+width:180px;
+height:27px;
+padding:2px 0px 2px 20px;
+margin-bottom:8px;
+border:none;
+}
+.login .btns .btnlogin {
+background:url(../images/login.jpg) no-repeat 0 0;
+}
+.login .btns .btnregister {
+background:url(../images/regist.jpg) no-repeat 0 0;
+}

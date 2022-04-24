@@ -1,0 +1,58 @@
+@charset "UTF-8";
+background-repeat:repeat;
+* {
+	margin:20px;
+	padding:0;
+}
+ .content{
+    position:relative;
+    margin：10px;
+	border:3px solid #808080;
+	
+}
+.single{
+	border-bottom:2px dashed #808080;
+}
+.pic {
+    float: left;
+    width: 200px;
+}
+.desc{
+	margin-left: 200px;
+}
+ul li{
+	list-style-type:none;
+}
+a:link{  
+text-decoration:none; 
+} 
+.orgprice{
+	color:#808080;
+}
+#org{
+	text-decoration:line-through;
+}
+.star{
+	
+}
+ .bn{ 
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #DC143C;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius:4px;
+ }
+ .imgclass{
+	width: 100px;
+	height: 120px;
+}
+ .bncar{
+  float:right;
+  padding-top:20px;
+  height:50px;
+ }

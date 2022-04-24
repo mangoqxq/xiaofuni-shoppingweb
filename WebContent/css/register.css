@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.box{
+	
+	position:relative;
+	line-height:160%;
+	margin:6px;
+}
+.i-label{
+	position:absolute;
+	left:0px;
+	width:90px;
+	line-height:160%;
+	text-align:right;
+}
+.i-text{
+	position:relative;
+	left:95px;
+	width:200px;
+	line-height:160%;
+}
+.import_prompt{
+	border:soild 1px #ffcd00;
+	background-color:#ffffda;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:20px;
+	
+}
+.error_prompt{
+	border:soild 1px #ff3300;
+	background-color:#fff2e5;
+	background-image:url(../li_err.gif);
+	background-repeat:no-repeat;
+	background-position:5px 2px;
+	padding:2px 5px 0px 25px;
+	line-height:20px;
+}
+.ok_prompt{
+	display:none;/* 此处隐藏了用户名输入正确提示 */
+}
